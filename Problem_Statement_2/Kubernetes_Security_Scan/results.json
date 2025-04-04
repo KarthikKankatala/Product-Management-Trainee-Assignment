@@ -1,0 +1,14 @@
+{
+  "scan": "kubescape",
+  "framework": "nsa",
+  "results": [
+    {
+      "control": "NetworkPolicies",
+      "status": "fail"
+    },
+    {
+      "control": "RBAC",
+      "status": "pass"
+    }
+  ]
+}
